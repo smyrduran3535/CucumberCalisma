@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddf76890-7414-4d34-a1e1-3b38d07238a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DqaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/DqaPageStepdefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/demoga1.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/parametre.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utulities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utulities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/AmazonStepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/AmazonpracticeStepdefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/DemogaStepdefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/DemogaStepdefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginStepdefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginStepdefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/amazontest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/amazontest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/dataTable.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/dataTable.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/data_tables.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/data_tables.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +53,70 @@
   }
 }</component>
   <component name="RunManager" selected="JUnit.Runners">
-    <configuration name="Scenario: kullanıcı_bilgileri" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: demoga1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/demoga.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/demoga1.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cucumberCalısma" />
-      <option name="NAME_FILTER" value="^kullanıcı_bilgileri$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^kullanıcı_bilgileri$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: kullanıcı_bilgileri" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: demoga1" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: ilkfeature" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ilkfeature.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="cucumberCalısma" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: ilkfeature" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: parametre" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/parametre.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="cucumberCalısma" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: parametre" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/scenario.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="cucumberCalısma" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: scenario" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -81,7 +146,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Runners" />
-        <item itemvalue="Cucumber Java.Scenario: kullanıcı_bilgileri" />
+        <item itemvalue="Cucumber Java.Feature: scenario" />
+        <item itemvalue="Cucumber Java.Feature: ilkfeature" />
+        <item itemvalue="Cucumber Java.Feature: demoga1" />
+        <item itemvalue="Cucumber Java.Feature: parametre" />
       </list>
     </recent_temporary>
   </component>

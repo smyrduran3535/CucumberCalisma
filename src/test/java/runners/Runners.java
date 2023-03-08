@@ -1,15 +1,14 @@
 package runners;
-
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
-
-@RunWith(Cucumber.class)//test calıstırıcı rotasyon
-@CucumberOptions(//senaryoların nerede nasıl calıstıgını hangi raporu kullanılmasıyla alakalı secenekleri ayarlar
-        features = "src/test/resources/features",//features ın yolunu belirtmemiz gerekir
-        glue = "stepdefinitions",//kodlarımızı yeri belirtirriz glue da
-    tags = "@giris_bilgileri",//ortak/calısma  calıstırmak istedigimiz senaryoya verdigimiz tag ı belirtiriz
-     dryRun =false//senaryonun adımlarını kontrol eder ve calıstıgını goruruz
+@RunWith(Cucumber.class) // test çalıştırıcı notasyonu
+@CucumberOptions( // Seneryoların nerede ve nasıl çalışacağı, hangi raporun kullanılmasıyla alakalı seçenekleri ayarlar
+        plugin = {"html:src/test/resources/reports/g1g2g3g4.html"},
+        features = "src/test/resources/features",
+        glue = "stepdefinitions",
+        tags = "@g1 or @g2 or @g3 or @g4 ",
+        dryRun = false //Seneryonun adımlarını kontrol eder ve çalıştığını görürüz
 )
 public class Runners {//xml file gibi runner classı
 

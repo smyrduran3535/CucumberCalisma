@@ -13,4 +13,7 @@ public class LoginPage {
     @FindBy(name = "email") public WebElement email;
     @FindBy(name = "password") public WebElement password;
     @FindBy(xpath = "//button[@type='submit']") public WebElement loginButton;
+    @FindBy(xpath = "//*[text()='Logout']") public WebElement logOutButton;
+    @FindBy(id = "dropdown-basic-button") public WebElement ddmButton;
+    @FindBy(xpath = "//*[text()='OK']") public WebElement OKButton;
 }

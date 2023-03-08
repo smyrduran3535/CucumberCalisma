@@ -13,7 +13,8 @@ And kullanici salary "<salary>" girer
     And kullanici create butonuna basar
     And kullanici firstname  "<firstname>" ile arar
     And kullanici  "<firstname>" in olustugunu test eder
-    Then sayfa kapatılır
+    Then sayfayi kapatir
+
 
 
     Examples: personel_bilgileri
