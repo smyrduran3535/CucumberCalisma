@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddf76890-7414-4d34-a1e1-3b38d07238a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DqaPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/DqaPageStepdefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/demoga1.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/parametre.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/AmazonStepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/AmazonpracticeStepdefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/DemogaStepdefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/DemogaStepdefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginStepdefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginStepdefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/amazontest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/amazontest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/dataTable.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/dataTable.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/data_tables.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/data_tables.feature" afterDir="false" />
-    </list>
+    <list default="true" id="ddf76890-7414-4d34-a1e1-3b38d07238a3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
